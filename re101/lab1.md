@@ -6,9 +6,13 @@ Jump into code in static disassembly then rename and comment on interesting asse
 
 String stacking: hide strings on the stack (`push` instructions)
 
+![image](https://user-images.githubusercontent.com/88914262/130342140-a1a87c7b-e200-446d-8f44-96ff6c3378ca.png)
+
 - Values are little endian, LSB. Hex values appear backwards
 
 Converting values of all sequential pushes from offset `00401151` to `00401188`
+
+![image](https://user-images.githubusercontent.com/88914262/130342155-25f92026-9f93-4d10-9e9d-b309acc2ff10.png)
 
 ### Looking for interesting strings
 
